@@ -1,5 +1,12 @@
 tmux-set-buffer-remote
 ======================
+reads text from stdin and set the tmux's paste-buffer on a remote machine over ssh.
+
+usage examples
+--------------
+
+    dmesg | tmux-set-buffer-remote mako@remotehost
+    echo "hello, world" | tmux-set-buffer-remote mako@remotehost
 
 compiling
 ---------
