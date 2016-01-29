@@ -13,7 +13,7 @@ int connect_ssh_session(const char* user, const char* host);
 int authenticate_ssh_session();
 int new_ssh_channel();
 int open_ssh_channel();
-int send_command_to_ssh_channel(char *command);
+int send_command_to_ssh_channel(char* command);
 void send_channel_eof();
 void close_channel();
 void free_channel();
